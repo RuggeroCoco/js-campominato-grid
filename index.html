@@ -26,15 +26,20 @@
           <h1 class="text-black">Campo Minato</h1>
         </div>
         <div>
-          <span class="me-1">Difficoltà:</span
-          ><button class="me-3 px-5">Hard</button
-          ><button id="spown-grid" class="me-5 px-3">Play</button>
+          <span>Difficoltà:</span>
+          <select id="">
+            <option value="1">Easy</option>
+            <option value="2">Hard</option>
+            <option value="3">Impossible</option>
+          </select>
+          <button id="spown-grid" class="me-5 px-3">Play</button>
         </div>
       </header>
       <!-- MAIN -->
-      <main>
-        <div class="grid">
-          <div class="grid-item"><span></span></div>
+      <main class="d-flex align-items-center justify-content-center p-5">
+        <h2>Inizia il gioco</h2>
+        <div class="grid hidden py-3 text-center">
+          <!-- <div class="grid-item"><span></span></div> -->
         </div>
       </main>
       <!-- FOOTER -->
